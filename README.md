@@ -3,7 +3,7 @@ TrixCore est un plugin permettant de relier vos serveurs à votre cms ! Cette ve
 
 ## Téléchargement
 
-[TrixCore Sponge v1.0.1](https://github.com/TrixCMS-V-2/trixcore-minecraft-sponge/releases/download/v1.0.1/trixcore-sponge-1.0.1.jar)
+[TrixCore Sponge v1.0.2](https://github.com/TrixCMS-V-2/trixcore-minecraft-sponge/releases/download/v1.0.2/trixcore-sponge-1.0.2.jar)
 
 ## Installation
 
