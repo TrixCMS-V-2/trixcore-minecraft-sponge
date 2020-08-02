@@ -3,7 +3,7 @@ TrixCore est un plugin permettant de relier vos serveurs à votre cms ! Cette ve
 
 ## Téléchargement
 
-[TrixCore Sponge v1.0.2](https://github.com/TrixCMS-V-2/trixcore-minecraft-sponge/releases/download/v1.0.2/trixcore-sponge-1.0.2.jar)
+[TrixCore Sponge v1.0.3](https://github.com/TrixCMS-V-2/trixcore-minecraft-sponge/releases/download/v1.0.3/trixcore-sponge-1.0.3.jar)
 
 ## Installation
 
@@ -43,7 +43,7 @@ Puis incluez **eu.trixcms:trixcore-minecraft-sponge** en dépendance :
 
 ```
 dependencies {
-     implementation 'eu.trixcms:trixcore-minecraft-sponge:v1.0.1'
+     implementation 'eu.trixcms:trixcore-minecraft-sponge:v1.0.3'
 }
 ```
 
@@ -66,7 +66,7 @@ Puis incluez **eu.trixcms:trixcore-minecraft-sponge** en dépendance :
 <dependency>
 	<groupId>eu.trixcms</groupId>
 	<artifactId>trixcore-minecraft-sponge</artifactId>
-	<version>v1.0.1</version>
+	<version>v1.0.3</version>
 </dependency>
 ```
 
