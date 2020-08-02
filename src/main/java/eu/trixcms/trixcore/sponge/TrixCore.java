@@ -20,7 +20,6 @@ import lombok.Getter;
 import ninja.leaping.configurate.commented.CommentedConfigurationNode;
 import ninja.leaping.configurate.hocon.HoconConfigurationLoader;
 import ninja.leaping.configurate.loader.ConfigurationLoader;
-import org.bstats.sponge.Metrics2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongepowered.api.Game;
@@ -47,7 +46,6 @@ import java.util.Objects;
 public class TrixCore implements IConfig, ICommandExecutor<CommandContainer> {
 
     private static final Logger logger = LoggerFactory.getLogger(TrixCore.class);
-    private static final int TRIXCORE_PLUGIN_ID = 6624;
 
     @Getter private static TrixCore instance;
     @Getter private TrixServer trixServer;
@@ -66,8 +64,7 @@ public class TrixCore implements IConfig, ICommandExecutor<CommandContainer> {
     private Game game;
 
     @Inject
-    public TrixCore(Metrics2.Factory metricsFactory, Game game) {
-        metricsFactory.make(TRIXCORE_PLUGIN_ID);
+    public TrixCore(Game game) {
         this.game = game;
     }
 
