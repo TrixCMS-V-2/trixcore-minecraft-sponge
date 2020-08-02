@@ -42,7 +42,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Objects;
 
-@Plugin(id = "trixcore", name = "TrixCore", version = "1.0", url = "https://trixcms.eu", authors = {"antoineok", "iambluedev"})
+@Plugin(id = "trixcore", name = "TrixCore", version = "1.0.3", url = "https://trixcms.eu", authors = {"antoineok", "iambluedev"})
 public class TrixCore implements IConfig, ICommandExecutor<CommandContainer> {
 
     private static final Logger logger = LoggerFactory.getLogger(TrixCore.class);
